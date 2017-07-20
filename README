@@ -286,14 +286,14 @@ libraries that OpenOCD depends on. Alternatively, you can specify
 Cross-compiling for Android
 ----------------------------
 
-To build OpenOCD, use the following sequence of commands:
+To build OpenOCD for Android platform, use the following sequence of commands:
 
-  ./bootstrap (when building from the git repository)
+  ./bootstrap   # (when building from the git repository)
   export ANDROID_NDK=/path/to/your/own/ndk ./android_porting_config.sh
   make
 
-In which, android_porting_config.sh will run the configure script and set up 
-related build parameters. 
+In which, android_porting_config.sh will run the original configure script 
+and set up related build parameters. 
 
 Parallel Port Dongles
 ---------------------
